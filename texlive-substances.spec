@@ -50,3 +50,11 @@ in the document can be created..
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
++ Revision: 813777
+- Import texlive-substances
+- Import texlive-substances
+
