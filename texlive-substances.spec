@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.1
 Name:		texlive-substances
-Version:	0.1
-Release:	9
+Version:	0.2a
+Release:	1
 Summary:	A database of chemicals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/substances
