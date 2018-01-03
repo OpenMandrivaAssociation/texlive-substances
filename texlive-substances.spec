@@ -1,9 +1,3 @@
-# revision 27182
-# category Package
-# catalog-ctan /macros/latex/contrib/substances
-# catalog-date 2012-07-22 22:37:06 +0200
-# catalog-license lppl1.3
-# catalog-version 0.1
 Name:		texlive-substances
 Version:	0.2a
 Release:	1
@@ -34,12 +28,8 @@ in the document can be created..
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/substances/substances-default.def
-%{_texmfdistdir}/tex/latex/substances/substances.sty
-%doc %{_texmfdistdir}/doc/latex/substances/README
-%doc %{_texmfdistdir}/doc/latex/substances/substances-examples.sub
-%doc %{_texmfdistdir}/doc/latex/substances/substances_en.pdf
-%doc %{_texmfdistdir}/doc/latex/substances/substances_en.tex
+%{_texmfdistdir}/tex/latex/substances
+%doc %{_texmfdistdir}/doc/latex/substances
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,11 +40,3 @@ in the document can be created..
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 813777
-- Import texlive-substances
-- Import texlive-substances
-
