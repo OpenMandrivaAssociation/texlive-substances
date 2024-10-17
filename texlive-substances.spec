@@ -3,7 +3,7 @@ Version:	40989
 Release:	2
 Summary:	A database of chemicals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/substances
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/substances
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/substances.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/substances.doc.r%{version}.tar.xz
