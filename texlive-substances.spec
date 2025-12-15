@@ -1,6 +1,6 @@
 Name:		texlive-substances
-Version:	40989
-Release:	2
+Version:	76924
+Release:	1
 Summary:	A database of chemicals
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/substances
